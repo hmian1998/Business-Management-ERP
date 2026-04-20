@@ -1,0 +1,25 @@
+{
+  "name": "business-management-platform",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm run dev --workspace @bmp/api\" \"npm run dev --workspace @bmp/web\"",
+    "build": "npm run build --workspace @bmp/api && npm run build --workspace @bmp/web",
+    "perf:smoke:web": "npm run build --workspace @bmp/web && npm run perf:smoke --workspace @bmp/web",
+    "test": "npm run test --workspace @bmp/api && npm run test --workspace @bmp/web",
+    "test:integration": "npm run test:integration --workspace @bmp/api",
+    "db:migrate": "npm run db:migrate --workspace @bmp/api",
+    "db:seed": "npm run db:seed --workspace @bmp/api",
+    "db:serve": "EMBEDDED_PG_PORT=55433 node scripts/run-embedded-postgres.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "dependencies": {
+    "embedded-postgres": "^18.3.0-beta.16"
+  }
+}

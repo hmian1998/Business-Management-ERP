@@ -1,0 +1,712 @@
+2026-04-07 13:58:31.964 PKT [77689] LOG:  starting PostgreSQL 18.3 on x86_64-apple-darwin24.6.0, compiled by Apple clang version 17.0.0 (clang-1700.6.3.2), 64-bit
+
+2026-04-07 13:58:31.968 PKT [77689] LOG:  listening on IPv6 address "::1", port 55432
+
+2026-04-07 13:58:31.968 PKT [77689] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+
+2026-04-07 13:58:31.969 PKT [77689] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55432"
+
+2026-04-07 13:58:31.980 PKT [77695] LOG:  database system was interrupted; last known up at 2026-04-07 13:54:53 PKT
+
+2026-04-07 13:58:32.282 PKT [77695] LOG:  database system was not properly shut down; automatic recovery in progress
+
+2026-04-07 13:58:32.287 PKT [77695] LOG:  redo starts at 0/B0A7310
+2026-04-07 13:58:32.287 PKT [77695] LOG:  invalid record length at 0/B0A7450: expected at least 24, got 0
+2026-04-07 13:58:32.287 PKT [77695] LOG:  redo done at 0/B0A7418 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+
+2026-04-07 13:58:32.292 PKT [77693] LOG:  checkpoint starting: end-of-recovery immediate wait
+
+2026-04-07 13:58:32.301 PKT [77693] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.010 s; sync files=3, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/B0A7450, redo lsn=0/B0A7450
+
+2026-04-07 13:58:32.304 PKT [77689] LOG:  database system is ready to accept connections
+
+2026-04-07 13:58:32.343 PKT [77699] ERROR:  database "bmp_db" already exists
+2026-04-07 13:58:32.343 PKT [77699] STATEMENT:  CREATE DATABASE "bmp_db"
+
+Embedded Postgres running on port 55432, database bmp_db
+2026-04-07 14:03:32.309 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-07 14:03:32.947 PKT [77693] LOG:  checkpoint complete: wrote 6 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.630 s, sync=0.002 s, total=0.641 s; sync files=6, longest=0.001 s, average=0.001 s; distance=22 kB, estimate=22 kB; lsn=0/B0DD640, redo lsn=0/B0AD018
+
+2026-04-07 14:08:32.949 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-07 14:08:37.456 PKT [77693] LOG:  checkpoint complete: wrote 44 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.496 s, sync=0.002 s, total=4.508 s; sync files=44, longest=0.001 s, average=0.001 s; distance=205 kB, estimate=205 kB; lsn=0/B0E04A8, redo lsn=0/B0E0418
+
+2026-04-07 16:28:18.497 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-07 16:28:19.345 PKT [77693] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.834 s, sync=0.002 s, total=0.853 s; sync files=9, longest=0.001 s, average=0.001 s; distance=43 kB, estimate=188 kB; lsn=0/B0EB218, redo lsn=0/B0EB1C0
+
+2026-04-07 16:53:18.383 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-07 16:53:22.168 PKT [77693] LOG:  checkpoint complete: wrote 37 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.774 s, sync=0.006 s, total=3.787 s; sync files=36, longest=0.001 s, average=0.001 s; distance=147 kB, estimate=184 kB; lsn=0/B1101D8, redo lsn=0/B110148
+
+2026-04-07 16:58:18.171 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-07 16:58:18.905 PKT [77693] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.725 s, sync=0.002 s, total=0.736 s; sync files=8, longest=0.001 s, average=0.001 s; distance=42 kB, estimate=170 kB; lsn=0/B11AB38, redo lsn=0/B11AAE0
+
+2026-04-07 17:43:18.922 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-07 17:43:21.412 PKT [77693] LOG:  checkpoint complete: wrote 24 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.478 s, sync=0.004 s, total=2.493 s; sync files=22, longest=0.002 s, average=0.001 s; distance=126 kB, estimate=166 kB; lsn=0/B13A6B8, redo lsn=0/B13A660
+
+2026-04-07 17:48:18.429 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-07 17:48:22.850 PKT [77693] LOG:  checkpoint complete: wrote 43 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.410 s, sync=0.003 s, total=4.423 s; sync files=40, longest=0.001 s, average=0.001 s; distance=216 kB, estimate=216 kB; lsn=0/B170850, redo lsn=0/B1707C0
+
+2026-04-07 17:58:18.864 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-07 17:58:19.733 PKT [77693] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.826 s, sync=0.003 s, total=0.873 s; sync files=9, longest=0.001 s, average=0.001 s; distance=49 kB, estimate=199 kB; lsn=0/B17CF48, redo lsn=0/B17CEF0
+
+2026-04-07 18:03:18.735 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-07 18:03:25.191 PKT [77693] LOG:  checkpoint complete: wrote 63 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.447 s, sync=0.002 s, total=6.457 s; sync files=54, longest=0.001 s, average=0.001 s; distance=254 kB, estimate=254 kB; lsn=0/B1BC9D0, redo lsn=0/B1BC940
+
+2026-04-07 18:18:18.199 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-07 18:18:18.628 PKT [77693] LOG:  checkpoint complete: wrote 4 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.419 s, sync=0.002 s, total=0.433 s; sync files=5, longest=0.001 s, average=0.001 s; distance=23 kB, estimate=231 kB; lsn=0/B1C2710, redo lsn=0/B1C26B8
+
+2026-04-08 16:04:00.180 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-08 16:04:05.105 PKT [77693] LOG:  checkpoint complete: wrote 48 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.914 s, sync=0.002 s, total=4.929 s; sync files=39, longest=0.001 s, average=0.001 s; distance=273 kB, estimate=273 kB; lsn=0/B206DA0, redo lsn=0/B206D10
+
+2026-04-08 16:09:00.110 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-08 16:10:20.712 PKT [77693] LOG:  checkpoint complete: wrote 795 buffers (4.9%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=80.573 s, sync=0.021 s, total=80.603 s; sync files=502, longest=0.001 s, average=0.001 s; distance=5037 kB, estimate=5037 kB; lsn=0/B6F2268, redo lsn=0/B6F21D8
+
+2026-04-08 16:14:00.723 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-08 16:16:30.709 PKT [77693] LOG:  checkpoint complete: wrote 1482 buffers (9.0%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=149.938 s, sync=0.041 s, total=149.986 s; sync files=952, longest=0.002 s, average=0.001 s; distance=9638 kB, estimate=9638 kB; lsn=0/C05BB78, redo lsn=0/C05BAE8
+
+2026-04-08 16:19:00.712 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-08 16:21:36.214 PKT [77693] LOG:  checkpoint complete: wrote 1531 buffers (9.3%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=155.449 s, sync=0.049 s, total=155.502 s; sync files=953, longest=0.001 s, average=0.001 s; distance=9783 kB, estimate=9783 kB; lsn=0/CD3FD60, redo lsn=0/C9E97F0
+
+2026-04-08 16:34:00.242 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-08 16:37:17.771 PKT [77693] LOG:  checkpoint complete: wrote 1734 buffers (10.6%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=197.224 s, sync=0.264 s, total=197.530 s; sync files=1406, longest=0.005 s, average=0.001 s; distance=12048 kB, estimate=12048 kB; lsn=0/DC07CF0, redo lsn=0/D5ADBA0
+
+2026-04-08 17:33:03.197 PKT [54007] ERROR:  column "uniquePartId" does not exist at character 21
+2026-04-08 17:33:03.197 PKT [54007] STATEMENT:  
+	  select "shopId", "uniquePartId", count(*)::int as count
+	  from "Part"
+	  where "uniquePartId" is not null
+	  group by "shopId", "uniquePartId"
+	  having count(*) > 1
+	
+
+2026-04-08 17:34:00.879 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-08 17:37:16.646 PKT [77693] LOG:  checkpoint complete: wrote 1931 buffers (11.8%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=195.736 s, sync=0.022 s, total=195.768 s; sync files=734, longest=0.001 s, average=0.001 s; distance=13010 kB, estimate=13010 kB; lsn=0/E2626F8, redo lsn=0/E262668
+
+2026-04-08 18:54:00.706 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-08 18:54:01.351 PKT [77693] LOG:  checkpoint complete: wrote 6 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.627 s, sync=0.001 s, total=0.649 s; sync files=2, longest=0.001 s, average=0.001 s; distance=46 kB, estimate=11714 kB; lsn=0/E26E280, redo lsn=0/E26E228
+
+2026-04-08 18:59:00.354 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-08 19:00:48.206 PKT [77693] LOG:  checkpoint complete: wrote 1064 buffers (6.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=107.831 s, sync=0.003 s, total=107.852 s; sync files=31, longest=0.001 s, average=0.001 s; distance=11633 kB, estimate=11706 kB; lsn=0/EDD26B0, redo lsn=0/EDCA6E8
+
+2026-04-09 13:04:36.939 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 13:04:37.790 PKT [77693] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.836 s, sync=0.003 s, total=0.855 s; sync files=3, longest=0.003 s, average=0.001 s; distance=41 kB, estimate=10539 kB; lsn=0/EDD4C78, redo lsn=0/EDD4BE8
+
+2026-04-09 13:14:36.805 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 13:14:37.021 PKT [77693] LOG:  checkpoint complete: wrote 2 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.205 s, sync=0.002 s, total=0.218 s; sync files=1, longest=0.001 s, average=0.001 s; distance=8 kB, estimate=9486 kB; lsn=0/EDD6F38, redo lsn=0/EDD6EE0
+
+2026-04-09 13:19:36.034 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 13:21:58.711 PKT [77693] LOG:  checkpoint complete: wrote 1409 buffers (8.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=142.662 s, sync=0.003 s, total=142.681 s; sync files=74, longest=0.001 s, average=0.001 s; distance=14396 kB, estimate=14396 kB; lsn=0/FBE6310, redo lsn=0/FBE6280
+
+2026-04-09 13:29:36.692 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 13:32:47.334 PKT [77693] LOG:  checkpoint complete: wrote 1886 buffers (11.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=190.631 s, sync=0.003 s, total=190.642 s; sync files=59, longest=0.001 s, average=0.001 s; distance=20514 kB, estimate=20514 kB; lsn=0/118535E0, redo lsn=0/10FEEC50
+
+2026-04-09 13:34:36.339 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 13:35:32.314 PKT [77693] LOG:  checkpoint complete: wrote 551 buffers (3.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=55.963 s, sync=0.003 s, total=55.976 s; sync files=69, longest=0.002 s, average=0.001 s; distance=8650 kB, estimate=19328 kB; lsn=0/11861720, redo lsn=0/11861690
+
+2026-04-09 13:44:36.318 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 13:44:45.700 PKT [77693] LOG:  checkpoint complete: wrote 91 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.375 s, sync=0.002 s, total=9.385 s; sync files=85, longest=0.001 s, average=0.001 s; distance=368 kB, estimate=17432 kB; lsn=0/118BD840, redo lsn=0/118BD7B0
+
+2026-04-09 13:49:36.702 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 13:49:37.631 PKT [77693] LOG:  checkpoint complete: wrote 9 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.918 s, sync=0.001 s, total=0.930 s; sync files=8, longest=0.001 s, average=0.001 s; distance=31 kB, estimate=15691 kB; lsn=0/118C5440, redo lsn=0/118C53E8
+
+2026-04-09 14:29:36.682 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 14:31:17.574 PKT [77693] LOG:  checkpoint complete: wrote 996 buffers (6.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=100.831 s, sync=0.056 s, total=100.893 s; sync files=998, longest=0.002 s, average=0.001 s; distance=8942 kB, estimate=15017 kB; lsn=0/13147248, redo lsn=0/12180F20
+
+2026-04-09 14:34:36.579 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 14:38:14.240 PKT [77693] LOG:  checkpoint complete: wrote 2153 buffers (13.1%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=217.638 s, sync=0.007 s, total=217.663 s; sync files=532, longest=0.003 s, average=0.001 s; distance=16273 kB, estimate=16273 kB; lsn=0/1316E040, redo lsn=0/13165658
+
+2026-04-09 15:11:11.639 PKT [56718] ERROR:  column Employee.userId does not exist at character 14
+2026-04-09 15:11:11.639 PKT [56718] STATEMENT:  SELECT COUNT("public"."Employee"."userId") AS "_count$userId", "public"."Employee"."userId" FROM "public"."Employee" WHERE "public"."Employee"."userId" IS NOT NULL GROUP BY "public"."Employee"."userId" HAVING COUNT("public"."Employee"."userId") > $1 OFFSET $2
+
+2026-04-09 15:14:36.275 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 15:14:54.221 PKT [77693] LOG:  checkpoint complete: wrote 174 buffers (1.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=17.929 s, sync=0.004 s, total=17.946 s; sync files=57, longest=0.001 s, average=0.001 s; distance=1155 kB, estimate=14762 kB; lsn=0/132866B0, redo lsn=0/13286620
+
+2026-04-09 15:19:36.225 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 15:23:55.957 PKT [77693] LOG:  checkpoint complete: wrote 2542 buffers (15.5%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=259.627 s, sync=0.095 s, total=259.732 s; sync files=2396, longest=0.002 s, average=0.001 s; distance=16008 kB, estimate=16008 kB; lsn=0/14D5F420, redo lsn=0/142286B0
+
+2026-04-09 15:24:36.961 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 15:27:54.652 PKT [77693] LOG:  checkpoint complete: wrote 1932 buffers (11.8%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=197.641 s, sync=0.046 s, total=197.691 s; sync files=1632, longest=0.001 s, average=0.001 s; distance=15602 kB, estimate=15967 kB; lsn=0/15A6A090, redo lsn=0/151650B0
+
+2026-04-09 15:29:36.656 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 15:34:06.033 PKT [77693] LOG:  checkpoint complete: wrote 3164 buffers (19.3%), wrote 5 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=269.341 s, sync=0.029 s, total=269.377 s; sync files=1355, longest=0.001 s, average=0.001 s; distance=22329 kB, estimate=22329 kB; lsn=0/16738EB8, redo lsn=0/16733680
+
+2026-04-09 16:14:36.066 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 16:14:36.496 PKT [77693] LOG:  checkpoint complete: wrote 4 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.417 s, sync=0.003 s, total=0.431 s; sync files=2, longest=0.002 s, average=0.002 s; distance=45 kB, estimate=20101 kB; lsn=0/1673EC18, redo lsn=0/1673EBC0
+
+2026-04-09 16:19:36.496 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 16:19:36.809 PKT [77693] LOG:  checkpoint complete: wrote 3 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.307 s, sync=0.001 s, total=0.315 s; sync files=3, longest=0.001 s, average=0.001 s; distance=14 kB, estimate=18092 kB; lsn=0/16742688, redo lsn=0/16742630
+
+2026-04-09 16:34:36.812 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 16:34:37.035 PKT [77693] LOG:  checkpoint complete: wrote 2 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.215 s, sync=0.001 s, total=0.225 s; sync files=2, longest=0.001 s, average=0.001 s; distance=12 kB, estimate=16284 kB; lsn=0/167459E8, redo lsn=0/16745990
+
+2026-04-09 16:39:36.037 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 16:39:37.482 PKT [77693] LOG:  checkpoint complete: wrote 14 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.436 s, sync=0.003 s, total=1.446 s; sync files=15, longest=0.002 s, average=0.001 s; distance=60 kB, estimate=14662 kB; lsn=0/16754D30, redo lsn=0/16754CD8
+
+2026-04-09 17:33:34.503 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 17:33:35.343 PKT [77693] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.829 s, sync=0.004 s, total=0.844 s; sync files=9, longest=0.001 s, average=0.001 s; distance=18 kB, estimate=13197 kB; lsn=0/167598B8, redo lsn=0/16759860
+
+2026-04-09 17:38:34.346 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 17:38:35.074 PKT [77693] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.717 s, sync=0.003 s, total=0.728 s; sync files=8, longest=0.001 s, average=0.001 s; distance=12 kB, estimate=11879 kB; lsn=0/1675CB20, redo lsn=0/1675CAC8
+
+2026-04-09 17:43:34.080 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 17:43:34.193 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.002 s, total=0.114 s; sync files=2, longest=0.001 s, average=0.001 s; distance=6 kB, estimate=10691 kB; lsn=0/1675E3C0, redo lsn=0/1675E368
+
+2026-04-09 17:48:34.196 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 17:48:36.279 PKT [77693] LOG:  checkpoint complete: wrote 20 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.075 s, sync=0.003 s, total=2.084 s; sync files=21, longest=0.001 s, average=0.001 s; distance=71 kB, estimate=9629 kB; lsn=0/16770078, redo lsn=0/16770020
+
+2026-04-09 17:53:34.282 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 17:53:35.765 PKT [77693] LOG:  checkpoint complete: wrote 14 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.456 s, sync=0.001 s, total=1.483 s; sync files=15, longest=0.001 s, average=0.001 s; distance=63 kB, estimate=8673 kB; lsn=0/1677FDE0, redo lsn=0/1677FD88
+
+2026-04-09 18:33:34.811 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 18:37:05.844 PKT [77693] LOG:  checkpoint complete: wrote 2086 buffers (12.7%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=210.950 s, sync=0.070 s, total=211.034 s; sync files=1464, longest=0.003 s, average=0.001 s; distance=13343 kB, estimate=13343 kB; lsn=0/17AA3638, redo lsn=0/174879C0
+
+2026-04-09 18:53:34.867 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 18:55:14.874 PKT [77693] LOG:  checkpoint complete: wrote 986 buffers (6.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=99.988 s, sync=0.005 s, total=100.013 s; sync files=272, longest=0.002 s, average=0.001 s; distance=6321 kB, estimate=12640 kB; lsn=0/17AB3EA0, redo lsn=0/17AB3E10
+
+2026-04-09 18:58:34.893 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 19:00:51.232 PKT [77693] LOG:  checkpoint complete: wrote 1345 buffers (8.2%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=136.311 s, sync=0.022 s, total=136.342 s; sync files=525, longest=0.001 s, average=0.001 s; distance=8519 kB, estimate=12228 kB; lsn=0/18305DF8, redo lsn=0/18305D68
+
+2026-04-09 19:03:34.237 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 19:03:34.351 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.001 s, total=0.115 s; sync files=2, longest=0.001 s, average=0.001 s; distance=7 kB, estimate=11006 kB; lsn=0/18307D30, redo lsn=0/18307CD8
+
+2026-04-09 19:08:34.355 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 19:10:23.854 PKT [77693] LOG:  checkpoint complete: wrote 1081 buffers (6.6%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=109.468 s, sync=0.023 s, total=109.500 s; sync files=525, longest=0.002 s, average=0.001 s; distance=6315 kB, estimate=10537 kB; lsn=0/18934E20, redo lsn=0/189329C8
+
+2026-04-09 19:23:34.875 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 19:25:20.791 PKT [77693] LOG:  checkpoint complete: wrote 1048 buffers (6.4%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=105.892 s, sync=0.018 s, total=105.918 s; sync files=518, longest=0.001 s, average=0.001 s; distance=6126 kB, estimate=10096 kB; lsn=0/194B6678, redo lsn=0/18F2E5A8
+
+2026-04-09 19:38:34.789 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 19:39:47.980 PKT [77693] LOG:  checkpoint complete: wrote 724 buffers (4.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=73.177 s, sync=0.001 s, total=73.193 s; sync files=18, longest=0.001 s, average=0.001 s; distance=5672 kB, estimate=9654 kB; lsn=0/194B8720, redo lsn=0/194B8690
+
+2026-04-09 19:58:35.012 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 20:03:05.064 PKT [77693] LOG:  checkpoint complete: wrote 2942 buffers (18.0%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=269.983 s, sync=0.061 s, total=270.056 s; sync files=1490, longest=0.002 s, average=0.001 s; distance=18794 kB, estimate=18794 kB; lsn=0/1A713150, redo lsn=0/1A7130C0
+
+2026-04-09 20:13:35.074 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 20:13:35.502 PKT [77693] LOG:  checkpoint complete: wrote 4 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.417 s, sync=0.001 s, total=0.431 s; sync files=1, longest=0.001 s, average=0.001 s; distance=31 kB, estimate=16918 kB; lsn=0/1A71AF90, redo lsn=0/1A71AF00
+
+2026-04-09 20:21:30.556 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 20:21:30.887 PKT [77693] LOG:  checkpoint complete: wrote 3 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.319 s, sync=0.004 s, total=0.335 s; sync files=2, longest=0.001 s, average=0.001 s; distance=24 kB, estimate=15228 kB; lsn=0/1A721078, redo lsn=0/1A721020
+
+2026-04-09 21:06:30.920 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 21:06:37.501 PKT [77693] LOG:  checkpoint complete: wrote 64 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.568 s, sync=0.002 s, total=6.582 s; sync files=58, longest=0.001 s, average=0.001 s; distance=258 kB, estimate=13731 kB; lsn=0/1A761930, redo lsn=0/1A7618A0
+
+2026-04-09 21:11:30.504 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-09 21:11:37.997 PKT [77693] LOG:  checkpoint complete: wrote 73 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.479 s, sync=0.006 s, total=7.493 s; sync files=67, longest=0.001 s, average=0.001 s; distance=274 kB, estimate=12386 kB; lsn=0/1A7A64C0, redo lsn=0/1A7A6430
+
+2026-04-10 18:17:22.497 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-10 18:20:42.374 PKT [77693] LOG:  checkpoint complete: wrote 1959 buffers (12.0%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=199.845 s, sync=0.022 s, total=199.879 s; sync files=1006, longest=0.001 s, average=0.001 s; distance=11938 kB, estimate=12341 kB; lsn=0/1B34EFF0, redo lsn=0/1B34EF60
+
+2026-04-10 18:27:22.383 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-10 18:27:23.109 PKT [77693] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.718 s, sync=0.002 s, total=0.730 s; sync files=2, longest=0.001 s, average=0.001 s; distance=54 kB, estimate=11112 kB; lsn=0/1B35C9F8, redo lsn=0/1B35C9A0
+
+2026-04-10 18:32:22.114 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-10 18:35:14.908 PKT [77693] LOG:  checkpoint complete: wrote 1700 buffers (10.4%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=172.750 s, sync=0.037 s, total=172.798 s; sync files=536, longest=0.002 s, average=0.001 s; distance=10980 kB, estimate=11099 kB; lsn=0/1BE15DA8, redo lsn=0/1BE15D18
+
+2026-04-10 18:42:22.922 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-10 18:51:08.184 PKT [77693] LOG:  checkpoint complete: wrote 3291 buffers (20.1%), wrote 7 SLRU buffers; 0 WAL file(s) added, 0 removed, 2 recycled; write=523.609 s, sync=0.180 s, total=525.252 s; sync files=1188, longest=0.073 s, average=0.001 s; distance=22413 kB, estimate=22413 kB; lsn=0/1D3F9590, redo lsn=0/1D3F9500
+
+2026-04-11 00:28:32.445 PKT [52047] LOG:  could not receive data from client: Connection reset by peer
+2026-04-11 00:28:32.445 PKT [52046] LOG:  could not receive data from client: Connection reset by peer
+
+2026-04-11 00:41:35.331 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 00:42:45.803 PKT [77693] LOG:  checkpoint complete: wrote 695 buffers (4.2%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=70.454 s, sync=0.003 s, total=70.475 s; sync files=29, longest=0.002 s, average=0.001 s; distance=5388 kB, estimate=20711 kB; lsn=0/1D93C760, redo lsn=0/1D93C6D0
+
+2026-04-11 00:46:35.807 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 00:49:41.922 PKT [77693] LOG:  checkpoint complete: wrote 1837 buffers (11.2%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=186.087 s, sync=0.017 s, total=186.116 s; sync files=530, longest=0.002 s, average=0.001 s; distance=12316 kB, estimate=19871 kB; lsn=0/1E549E70, redo lsn=0/1E543910
+
+2026-04-11 00:51:35.931 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 00:51:46.257 PKT [77693] LOG:  checkpoint complete: wrote 97 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.280 s, sync=0.006 s, total=10.327 s; sync files=10, longest=0.003 s, average=0.001 s; distance=419 kB, estimate=17926 kB; lsn=0/1E5AC810, redo lsn=0/1E5AC7B8
+
+2026-04-11 00:56:35.272 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 00:56:36.103 PKT [77693] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.820 s, sync=0.002 s, total=0.834 s; sync files=2, longest=0.001 s, average=0.001 s; distance=57 kB, estimate=16139 kB; lsn=0/1E5BAE38, redo lsn=0/1E5BADE0
+
+2026-04-11 01:01:35.109 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 01:01:35.835 PKT [77693] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.718 s, sync=0.001 s, total=0.726 s; sync files=2, longest=0.001 s, average=0.001 s; distance=47 kB, estimate=14530 kB; lsn=0/1E5C6DC8, redo lsn=0/1E5C6D70
+
+2026-04-11 01:06:35.839 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 01:06:35.957 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.108 s, sync=0.001 s, total=0.120 s; sync files=1, longest=0.001 s, average=0.001 s; distance=7 kB, estimate=13078 kB; lsn=0/1E5C8B08, redo lsn=0/1E5C8AB0
+
+2026-04-11 01:11:35.960 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 01:11:40.183 PKT [77693] LOG:  checkpoint complete: wrote 41 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.214 s, sync=0.003 s, total=4.225 s; sync files=38, longest=0.001 s, average=0.001 s; distance=214 kB, estimate=11791 kB; lsn=0/1E5FE6E8, redo lsn=0/1E5FE658
+
+2026-04-11 01:21:35.191 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 01:21:42.410 PKT [77693] LOG:  checkpoint complete: wrote 70 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.209 s, sync=0.002 s, total=7.222 s; sync files=44, longest=0.001 s, average=0.001 s; distance=355 kB, estimate=10648 kB; lsn=0/1E657400, redo lsn=0/1E657370
+
+2026-04-11 01:26:35.415 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 01:26:39.666 PKT [77693] LOG:  checkpoint complete: wrote 41 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.237 s, sync=0.005 s, total=4.253 s; sync files=35, longest=0.001 s, average=0.001 s; distance=158 kB, estimate=9599 kB; lsn=0/1E67EFF8, redo lsn=0/1E67EF68
+
+2026-04-11 01:36:35.655 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 01:36:36.511 PKT [77693] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.843 s, sync=0.003 s, total=0.861 s; sync files=6, longest=0.002 s, average=0.001 s; distance=51 kB, estimate=8644 kB; lsn=0/1E68BBC0, redo lsn=0/1E68BB68
+
+2026-04-11 01:51:35.523 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 01:51:44.032 PKT [77693] LOG:  checkpoint complete: wrote 81 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.495 s, sync=0.006 s, total=8.512 s; sync files=45, longest=0.003 s, average=0.001 s; distance=536 kB, estimate=7833 kB; lsn=0/1E711F60, redo lsn=0/1E711ED0
+
+2026-04-11 01:56:35.034 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 01:56:35.470 PKT [77693] LOG:  checkpoint complete: wrote 4 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.427 s, sync=0.001 s, total=0.437 s; sync files=4, longest=0.001 s, average=0.001 s; distance=5 kB, estimate=7050 kB; lsn=0/1E7133D8, redo lsn=0/1E713380
+
+2026-04-11 02:06:35.469 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 02:06:40.237 PKT [77693] LOG:  checkpoint complete: wrote 45 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.755 s, sync=0.004 s, total=4.768 s; sync files=37, longest=0.001 s, average=0.001 s; distance=244 kB, estimate=6370 kB; lsn=0/1E7504A8, redo lsn=0/1E750450
+
+2026-04-11 02:11:35.240 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 02:11:36.058 PKT [77693] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.809 s, sync=0.001 s, total=0.819 s; sync files=7, longest=0.001 s, average=0.001 s; distance=26 kB, estimate=5735 kB; lsn=0/1E756DB0, redo lsn=0/1E756D58
+
+2026-04-11 02:16:35.063 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 02:16:35.175 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.104 s, sync=0.001 s, total=0.114 s; sync files=1, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=5162 kB; lsn=0/1E757B38, redo lsn=0/1E757AE0
+
+2026-04-11 13:16:58.767 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 13:17:08.623 PKT [77693] LOG:  checkpoint complete: wrote 96 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.845 s, sync=0.002 s, total=9.856 s; sync files=85, longest=0.001 s, average=0.001 s; distance=385 kB, estimate=4684 kB; lsn=0/1E7B81D8, redo lsn=0/1E7B8148
+
+2026-04-11 13:21:58.629 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 13:21:58.847 PKT [77693] LOG:  checkpoint complete: wrote 2 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.207 s, sync=0.003 s, total=0.221 s; sync files=2, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=4216 kB; lsn=0/1E7B9018, redo lsn=0/1E7B8FC0
+
+2026-04-11 13:40:09.233 PKT [50569] LOG:  could not receive data from client: Connection reset by peer
+
+2026-04-11 13:40:09.238 PKT [50570] LOG:  could not receive data from client: Connection reset by peer
+
+2026-04-11 13:40:09.243 PKT [50567] LOG:  could not receive data from client: Connection reset by peer
+
+2026-04-11 13:40:09.225 PKT [50568] LOG:  could not receive data from client: Connection reset by peer
+
+2026-04-11 13:40:09.347 PKT [50571] LOG:  could not receive data from client: Connection reset by peer
+
+2026-04-11 13:40:19.230 PKT [50579] LOG:  could not receive data from client: Connection reset by peer
+
+2026-04-11 13:40:30.404 PKT [50572] LOG:  could not receive data from client: Connection reset by peer
+
+2026-04-11 13:40:31.176 PKT [50585] LOG:  could not receive data from client: Connection reset by peer
+
+2026-04-11 16:15:55.308 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 16:15:55.437 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.112 s, sync=0.003 s, total=0.131 s; sync files=2, longest=0.001 s, average=0.001 s; distance=5 kB, estimate=3795 kB; lsn=0/1E7BA6C8, redo lsn=0/1E7BA670
+
+2026-04-11 16:25:55.441 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-11 16:25:56.270 PKT [77693] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.820 s, sync=0.002 s, total=0.832 s; sync files=8, longest=0.001 s, average=0.001 s; distance=59 kB, estimate=3422 kB; lsn=0/1E7C93E0, redo lsn=0/1E7C9388
+
+2026-04-12 16:00:23.457 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-12 16:02:30.125 PKT [77693] LOG:  checkpoint complete: wrote 1248 buffers (7.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=126.622 s, sync=0.038 s, total=126.670 s; sync files=544, longest=0.006 s, average=0.001 s; distance=7951 kB, estimate=7951 kB; lsn=0/1EF8D130, redo lsn=0/1EF8D0A0
+
+2026-04-12 16:05:23.128 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-12 16:05:23.249 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.112 s, sync=0.001 s, total=0.122 s; sync files=1, longest=0.001 s, average=0.001 s; distance=8 kB, estimate=7156 kB; lsn=0/1EF8F2C8, redo lsn=0/1EF8F270
+
+2026-04-12 17:00:23.279 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-12 17:00:31.279 PKT [77693] LOG:  checkpoint complete: wrote 78 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.990 s, sync=0.002 s, total=8.001 s; sync files=59, longest=0.001 s, average=0.001 s; distance=356 kB, estimate=6476 kB; lsn=0/1F0043C0, redo lsn=0/1EFE8588
+
+2026-04-12 17:05:23.290 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-12 17:05:27.266 PKT [77693] LOG:  checkpoint complete: wrote 38 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=3.961 s, sync=0.001 s, total=3.983 s; sync files=34, longest=0.001 s, average=0.001 s; distance=142 kB, estimate=5843 kB; lsn=0/1F00BF00, redo lsn=0/1F00BE70
+
+2026-04-12 17:10:23.275 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-12 17:12:20.230 PKT [77693] LOG:  checkpoint complete: wrote 1146 buffers (7.0%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=116.876 s, sync=0.033 s, total=116.955 s; sync files=542, longest=0.003 s, average=0.001 s; distance=7111 kB, estimate=7111 kB; lsn=0/1F6FDB98, redo lsn=0/1F6FDB08
+
+2026-04-12 17:15:23.236 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-12 17:19:53.157 PKT [77693] LOG:  checkpoint complete: wrote 2950 buffers (18.0%), wrote 4 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=269.818 s, sync=0.095 s, total=269.921 s; sync files=2020, longest=0.002 s, average=0.001 s; distance=21996 kB, estimate=21996 kB; lsn=0/20E2E4C0, redo lsn=0/20C78EA0
+
+2026-04-12 17:30:23.166 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-12 17:30:41.949 PKT [77693] LOG:  checkpoint complete: wrote 182 buffers (1.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=18.767 s, sync=0.006 s, total=18.785 s; sync files=67, longest=0.001 s, average=0.001 s; distance=1977 kB, estimate=19994 kB; lsn=0/20E675E8, redo lsn=0/20E67558
+
+2026-04-12 21:05:24.089 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-12 21:05:27.228 PKT [77693] LOG:  checkpoint complete: wrote 30 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.119 s, sync=0.002 s, total=3.147 s; sync files=30, longest=0.001 s, average=0.001 s; distance=125 kB, estimate=18008 kB; lsn=0/20E86A90, redo lsn=0/20E86A38
+
+2026-04-12 21:20:24.248 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-12 21:22:54.494 PKT [77693] LOG:  checkpoint complete: wrote 1473 buffers (9.0%), wrote 5 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=150.202 s, sync=0.033 s, total=150.248 s; sync files=549, longest=0.002 s, average=0.001 s; distance=9152 kB, estimate=17122 kB; lsn=0/21776CC0, redo lsn=0/21776C30
+
+2026-04-12 23:22:04.160 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-12 23:22:22.304 PKT [37351] ERROR:  could not open file "base/16384/16809": Interrupted system call
+2026-04-12 23:22:22.304 PKT [37351] STATEMENT:  SELECT "public"."ServiceType"."id", "public"."ServiceType"."shopId", "public"."ServiceType"."name", "public"."ServiceType"."description", "public"."ServiceType"."basePrice", "public"."ServiceType"."isActive", "public"."ServiceType"."createdAt", "public"."ServiceType"."updatedAt" FROM "public"."ServiceType" WHERE "public"."ServiceType"."shopId" = $1 ORDER BY "public"."ServiceType"."name" ASC OFFSET $2
+2026-04-12 23:22:22.304 PKT [37335] ERROR:  could not open file "base/16384/16549": Interrupted system call
+2026-04-12 23:22:22.304 PKT [37335] STATEMENT:  SELECT "public"."Shop"."id", "public"."Shop"."name", "public"."Shop"."code", "public"."Shop"."supportsServices", "public"."Shop"."servicePlatformManagedByParts", "public"."Shop"."maxPlatforms", "public"."Shop"."overtimeLimitMinutes" FROM "public"."Shop" WHERE ("public"."Shop"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+
+2026-04-12 23:23:12.311 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-12 23:23:22.283 PKT [37323] ERROR:  could not open file "base/16384/16639": Interrupted system call
+2026-04-12 23:23:22.283 PKT [37323] STATEMENT:  SELECT "public"."Customer"."id", "public"."Customer"."shopId", "public"."Customer"."code", "public"."Customer"."fullName", "public"."Customer"."phone", "public"."Customer"."email", "public"."Customer"."address", "public"."Customer"."createdAt", "public"."Customer"."updatedAt", "public"."Customer"."businessName", "public"."Customer"."region", "public"."Customer"."salesManagerName", "public"."Customer"."archivedAt", "public"."Customer"."isArchived", "public"."Customer"."cnic" FROM "public"."Customer" WHERE "public"."Customer"."id" IN ($1) OFFSET $2
+
+2026-04-12 23:23:22.283 PKT [37334] ERROR:  could not open file "base/16384/16825": Interrupted system call
+2026-04-12 23:23:22.283 PKT [37334] STATEMENT:  SELECT "public"."ServiceBooking"."id", "public"."ServiceBooking"."shopId", "public"."ServiceBooking"."bookingNo", "public"."ServiceBooking"."customerId", "public"."ServiceBooking"."serviceTypeId", "public"."ServiceBooking"."preferredDate", "public"."ServiceBooking"."status"::text, "public"."ServiceBooking"."notes", "public"."ServiceBooking"."source", "public"."ServiceBooking"."createdById", "public"."ServiceBooking"."createdAt", "public"."ServiceBooking"."updatedAt", "public"."ServiceBooking"."fuelLevel", "public"."ServiceBooking"."odometerKm", "public"."ServiceBooking"."vehicleChassisNo", "public"."ServiceBooking"."vehicleMake", "public"."ServiceBooking"."vehicleModel", "public"."ServiceBooking"."vehicleRegistrationNo", "public"."ServiceBooking"."vehicleType", "public"."ServiceBooking"."vehicleYear", "public"."ServiceBooking"."vehicleEngineNo", "public"."ServiceBooking"."vehiclePurchaseDate" FROM "public"."ServiceBooking" WHERE "public"."ServiceBooking"."shopId" = $1 ORDER BY "public"."ServiceBooking"."preferredDate" DESC OFFSET $2
+2026-04-12 23:23:22.285 PKT [37351] ERROR:  could not open file "base/16384/16639": Interrupted system call
+2026-04-12 23:23:22.285 PKT [37351] STATEMENT:  SELECT "public"."Customer"."id", "public"."Customer"."shopId", "public"."Customer"."code", "public"."Customer"."fullName", "public"."Customer"."phone", "public"."Customer"."email", "public"."Customer"."address", "public"."Customer"."createdAt", "public"."Customer"."updatedAt", "public"."Customer"."businessName", "public"."Customer"."region", "public"."Customer"."salesManagerName", "public"."Customer"."archivedAt", "public"."Customer"."isArchived", "public"."Customer"."cnic" FROM "public"."Customer" WHERE ("public"."Customer"."shopId" = $1 AND "public"."Customer"."isArchived" = $2) ORDER BY "public"."Customer"."isArchived" ASC, "public"."Customer"."createdAt" DESC OFFSET $3
+2026-04-12 23:23:22.284 PKT [37352] ERROR:  could not open file "base/16384/16549": Interrupted system call
+2026-04-12 23:23:22.284 PKT [37352] STATEMENT:  SELECT "public"."Shop"."id", "public"."Shop"."name", "public"."Shop"."code", "public"."Shop"."supportsServices", "public"."Shop"."servicePlatformManagedByParts", "public"."Shop"."maxPlatforms", "public"."Shop"."overtimeLimitMinutes" FROM "public"."Shop" WHERE ("public"."Shop"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+2026-04-12 23:23:22.287 PKT [37335] ERROR:  could not open file "base/16384/16668": Interrupted system call
+2026-04-12 23:23:22.287 PKT [37335] STATEMENT:  SELECT "public"."PartCategory"."id", "public"."PartCategory"."shopId", "public"."PartCategory"."name", "public"."PartCategory"."description", "public"."PartCategory"."createdAt", "public"."PartCategory"."updatedAt" FROM "public"."PartCategory" WHERE "public"."PartCategory"."id" IN ($1) OFFSET $2
+
+2026-04-12 23:24:12.318 PKT [37451] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-12 23:24:17.361 PKT [37457] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-12 23:24:17.366 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-12 23:50:35.747 PKT [37404] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-12 23:50:35.747 PKT [37445] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-12 23:50:35.747 PKT [37434] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-12 23:50:35.747 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-12 23:50:35.776 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 00:20:16.583 PKT [37726] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 00:20:16.583 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+2026-04-13 00:20:16.583 PKT [37724] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 00:20:16.583 PKT [37763] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-13 00:20:16.609 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 01:42:40.360 PKT [38006] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 01:42:40.360 PKT [38015] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 01:42:40.360 PKT [38008] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 01:42:40.360 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 01:42:40.387 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 02:13:38.767 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+2026-04-13 02:13:38.769 PKT [41304] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 02:13:38.769 PKT [41240] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 02:13:38.769 PKT [41168] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-13 02:13:38.798 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 02:43:12.628 PKT [41800] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 02:43:12.628 PKT [41762] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 02:43:12.629 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+2026-04-13 02:43:12.628 PKT [41735] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-13 02:43:12.652 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 03:12:41.401 PKT [41951] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 03:12:41.401 PKT [41946] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 03:12:41.401 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+2026-04-13 03:12:41.401 PKT [41955] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-13 03:12:41.426 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 03:43:19.695 PKT [42985] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 03:43:19.695 PKT [42948] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 03:43:19.695 PKT [42975] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 03:43:19.695 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 03:43:19.714 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 04:13:05.586 PKT [44037] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 04:13:05.586 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+2026-04-13 04:13:05.586 PKT [44030] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 04:13:05.586 PKT [44065] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-13 04:13:05.609 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 05:29:09.372 PKT [44979] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 05:29:09.372 PKT [44975] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 05:29:09.372 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+2026-04-13 05:29:09.372 PKT [44992] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-13 05:29:09.398 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 06:02:33.480 PKT [45423] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 06:02:33.480 PKT [45524] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 06:02:33.480 PKT [45486] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 06:02:33.480 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 06:02:33.513 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 06:32:18.415 PKT [47559] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 06:32:18.415 PKT [47607] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 06:32:18.415 PKT [47529] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 06:32:18.416 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 06:32:18.430 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 07:01:42.191 PKT [47857] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 07:01:42.191 PKT [47860] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 07:01:42.191 PKT [47846] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 07:01:42.191 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 07:01:42.209 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 07:31:59.309 PKT [48012] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 07:31:59.309 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+2026-04-13 07:31:59.309 PKT [48002] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 07:31:59.309 PKT [48039] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-13 07:31:59.330 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 08:02:00.282 PKT [48271] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 08:02:00.282 PKT [48218] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 08:02:00.282 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+2026-04-13 08:02:00.282 PKT [48228] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-13 08:02:00.302 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 08:31:59.305 PKT [48804] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 08:31:59.306 PKT [48798] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 08:31:59.306 PKT [48809] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 08:31:59.306 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 08:31:59.332 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 09:02:25.410 PKT [49102] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 09:02:25.410 PKT [48997] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 09:02:25.410 PKT [49028] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 09:02:25.410 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 09:02:25.450 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 09:31:24.146 PKT [49264] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 09:31:24.146 PKT [49260] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 09:31:24.146 PKT [49267] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 09:31:24.146 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 09:31:24.174 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 10:02:01.410 PKT [49458] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 10:02:01.410 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+2026-04-13 10:02:01.410 PKT [49441] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 10:02:01.410 PKT [49425] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-13 10:02:01.437 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 10:31:43.313 PKT [49702] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 10:31:43.313 PKT [49696] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 10:31:43.313 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+2026-04-13 10:31:43.313 PKT [49708] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+
+2026-04-13 10:31:43.338 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 11:01:44.306 PKT [49939] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 11:01:44.306 PKT [49945] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 11:01:44.306 PKT [49932] FATAL:  could not open file "global/pg_filenode.map": Interrupted system call
+2026-04-13 11:01:44.306 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 11:01:44.332 PKT [77689] LOG:  could not open file "postmaster.pid": Interrupted system call; continuing anyway
+
+2026-04-13 11:36:21.214 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 11:36:21.337 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.109 s, sync=0.001 s, total=0.125 s; sync files=1, longest=0.001 s, average=0.001 s; distance=2 kB, estimate=15410 kB; lsn=0/21777870, redo lsn=0/21777818
+
+2026-04-13 11:51:21.343 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 11:51:24.943 PKT [77693] LOG:  checkpoint complete: wrote 35 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.590 s, sync=0.002 s, total=3.600 s; sync files=30, longest=0.001 s, average=0.001 s; distance=156 kB, estimate=13885 kB; lsn=0/2179E880, redo lsn=0/2179E828
+
+2026-04-13 11:56:21.946 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 11:56:26.782 PKT [77693] LOG:  checkpoint complete: wrote 47 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.829 s, sync=0.002 s, total=4.837 s; sync files=47, longest=0.001 s, average=0.001 s; distance=165 kB, estimate=12513 kB; lsn=0/217C7D38, redo lsn=0/217C7CA8
+
+2026-04-13 12:01:21.790 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 12:01:30.020 PKT [77693] LOG:  checkpoint complete: wrote 79 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.224 s, sync=0.002 s, total=8.233 s; sync files=55, longest=0.001 s, average=0.001 s; distance=415 kB, estimate=11303 kB; lsn=0/2182FD28, redo lsn=0/2182F990
+
+2026-04-13 12:06:21.025 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 12:06:21.598 PKT [77693] LOG:  checkpoint complete: wrote 5 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.518 s, sync=0.002 s, total=0.576 s; sync files=6, longest=0.001 s, average=0.001 s; distance=5 kB, estimate=10173 kB; lsn=0/21830F78, redo lsn=0/21830F20
+
+2026-04-13 12:11:21.603 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 12:11:21.721 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.002 s, total=0.122 s; sync files=2, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=9156 kB; lsn=0/21831618, redo lsn=0/218315C0
+
+2026-04-13 12:16:21.726 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 12:16:33.128 PKT [77693] LOG:  checkpoint complete: wrote 110 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.380 s, sync=0.003 s, total=11.405 s; sync files=72, longest=0.001 s, average=0.001 s; distance=456 kB, estimate=8286 kB; lsn=0/218A3900, redo lsn=0/218A3870
+
+2026-04-13 12:21:21.132 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 12:21:24.095 PKT [77693] LOG:  checkpoint complete: wrote 28 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.950 s, sync=0.004 s, total=2.963 s; sync files=25, longest=0.001 s, average=0.001 s; distance=111 kB, estimate=7468 kB; lsn=0/218BF6B0, redo lsn=0/218BF620
+
+2026-04-13 12:31:21.103 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 12:31:21.960 PKT [77693] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.842 s, sync=0.002 s, total=0.860 s; sync files=4, longest=0.001 s, average=0.001 s; distance=42 kB, estimate=6726 kB; lsn=0/218CA138, redo lsn=0/218CA0E0
+
+2026-04-13 12:46:21.974 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 12:46:23.130 PKT [77693] LOG:  checkpoint complete: wrote 11 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.144 s, sync=0.002 s, total=1.159 s; sync files=7, longest=0.001 s, average=0.001 s; distance=26 kB, estimate=6056 kB; lsn=0/218D0B00, redo lsn=0/218D0AA8
+
+2026-04-13 12:51:21.131 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 12:51:21.771 PKT [77693] LOG:  checkpoint complete: wrote 6 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.628 s, sync=0.004 s, total=0.641 s; sync files=7, longest=0.002 s, average=0.001 s; distance=12 kB, estimate=5451 kB; lsn=0/218D3B80, redo lsn=0/218D3B28
+
+2026-04-13 13:01:21.797 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 13:01:21.912 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.104 s, sync=0.001 s, total=0.118 s; sync files=1, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=4906 kB; lsn=0/218D4288, redo lsn=0/218D4230
+
+2026-04-13 13:36:21.936 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 13:36:22.064 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.110 s, sync=0.003 s, total=0.130 s; sync files=2, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=4416 kB; lsn=0/218D4A20, redo lsn=0/218D49C8
+
+2026-04-13 13:41:21.068 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 13:41:21.868 PKT [77693] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.732 s, sync=0.003 s, total=0.802 s; sync files=7, longest=0.002 s, average=0.001 s; distance=21 kB, estimate=3976 kB; lsn=0/218DA098, redo lsn=0/218DA040
+
+2026-04-13 13:56:21.879 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 13:56:25.810 PKT [77693] LOG:  checkpoint complete: wrote 38 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.921 s, sync=0.001 s, total=3.934 s; sync files=26, longest=0.001 s, average=0.001 s; distance=121 kB, estimate=3591 kB; lsn=0/218F8570, redo lsn=0/218F8518
+
+2026-04-13 14:21:21.827 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 14:21:21.958 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.113 s, sync=0.002 s, total=0.134 s; sync files=1, longest=0.001 s, average=0.001 s; distance=2 kB, estimate=3232 kB; lsn=0/218F8EE0, redo lsn=0/218F8E88
+
+2026-04-13 14:36:21.963 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 14:36:23.548 PKT [77693] LOG:  checkpoint complete: wrote 15 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.567 s, sync=0.004 s, total=1.588 s; sync files=11, longest=0.002 s, average=0.001 s; distance=59 kB, estimate=2915 kB; lsn=0/21907BA8, redo lsn=0/21907B50
+
+2026-04-13 14:41:21.551 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 14:41:22.301 PKT [77693] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.738 s, sync=0.005 s, total=0.751 s; sync files=7, longest=0.003 s, average=0.001 s; distance=25 kB, estimate=2626 kB; lsn=0/2190E2B8, redo lsn=0/2190E260
+
+2026-04-13 14:46:21.312 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 14:46:22.005 PKT [77693] LOG:  checkpoint complete: wrote 6 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.647 s, sync=0.007 s, total=0.695 s; sync files=7, longest=0.003 s, average=0.001 s; distance=19 kB, estimate=2365 kB; lsn=0/21912F88, redo lsn=0/21912F30
+
+2026-04-13 14:51:21.010 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 14:51:23.055 PKT [77693] LOG:  checkpoint complete: wrote 19 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.988 s, sync=0.002 s, total=2.047 s; sync files=16, longest=0.001 s, average=0.001 s; distance=93 kB, estimate=2138 kB; lsn=0/2192A3E8, redo lsn=0/2192A390
+
+2026-04-13 15:06:21.041 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 15:06:24.908 PKT [77693] LOG:  checkpoint complete: wrote 37 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.853 s, sync=0.005 s, total=3.868 s; sync files=18, longest=0.001 s, average=0.001 s; distance=202 kB, estimate=1944 kB; lsn=0/2195CDF8, redo lsn=0/2195CDA0
+
+2026-04-13 15:11:21.910 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 15:11:22.702 PKT [77693] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.732 s, sync=0.003 s, total=0.792 s; sync files=7, longest=0.001 s, average=0.001 s; distance=29 kB, estimate=1753 kB; lsn=0/21964328, redo lsn=0/219642D0
+
+2026-04-13 15:26:21.709 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-13 15:26:21.827 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.107 s, sync=0.001 s, total=0.118 s; sync files=1, longest=0.001 s, average=0.001 s; distance=5 kB, estimate=1578 kB; lsn=0/21965AE0, redo lsn=0/21965A88
+
+2026-04-14 12:56:22.361 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-14 12:59:52.995 PKT [77693] LOG:  checkpoint complete: wrote 2078 buffers (12.7%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=210.592 s, sync=0.031 s, total=210.634 s; sync files=563, longest=0.001 s, average=0.001 s; distance=13868 kB, estimate=13868 kB; lsn=0/226F0C48, redo lsn=0/226F0BB8
+
+2026-04-14 19:56:23.207 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-14 19:56:23.669 PKT [77693] LOG:  checkpoint complete: wrote 4 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.443 s, sync=0.004 s, total=0.466 s; sync files=2, longest=0.001 s, average=0.001 s; distance=32 kB, estimate=12484 kB; lsn=0/226F8E58, redo lsn=0/226F8E00
+
+2026-04-15 11:38:44.860 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 11:38:47.675 PKT [77693] LOG:  checkpoint complete: wrote 27 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.799 s, sync=0.005 s, total=2.816 s; sync files=26, longest=0.001 s, average=0.001 s; distance=129 kB, estimate=11249 kB; lsn=0/227193D8, redo lsn=0/22719380
+
+2026-04-15 11:43:44.679 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 11:43:49.050 PKT [77693] LOG:  checkpoint complete: wrote 42 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.348 s, sync=0.004 s, total=4.372 s; sync files=43, longest=0.001 s, average=0.001 s; distance=145 kB, estimate=10138 kB; lsn=0/2273D9D0, redo lsn=0/2273D940
+
+2026-04-15 11:48:44.056 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 11:48:45.032 PKT [77693] LOG:  checkpoint complete: wrote 9 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.963 s, sync=0.002 s, total=0.979 s; sync files=10, longest=0.001 s, average=0.001 s; distance=40 kB, estimate=9128 kB; lsn=0/22747BF0, redo lsn=0/22747B98
+
+2026-04-15 12:43:44.065 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 12:43:44.203 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.121 s, sync=0.003 s, total=0.142 s; sync files=1, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=8216 kB; lsn=0/22747FB8, redo lsn=0/22747F60
+
+2026-04-15 12:48:44.205 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 12:48:44.734 PKT [77693] LOG:  checkpoint complete: wrote 5 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.522 s, sync=0.002 s, total=0.530 s; sync files=6, longest=0.001 s, average=0.001 s; distance=7 kB, estimate=7395 kB; lsn=0/22749BF8, redo lsn=0/22749BA0
+
+2026-04-15 12:53:44.736 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 12:53:45.477 PKT [77693] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.730 s, sync=0.003 s, total=0.742 s; sync files=7, longest=0.001 s, average=0.001 s; distance=29 kB, estimate=6658 kB; lsn=0/22751228, redo lsn=0/227511D0
+
+2026-04-15 12:58:44.480 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 12:58:45.986 PKT [77693] LOG:  checkpoint complete: wrote 14 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.469 s, sync=0.004 s, total=1.507 s; sync files=11, longest=0.002 s, average=0.001 s; distance=86 kB, estimate=6001 kB; lsn=0/22766AC0, redo lsn=0/22766A68
+
+2026-04-15 13:08:44.990 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 13:08:45.629 PKT [77693] LOG:  checkpoint complete: wrote 6 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.632 s, sync=0.002 s, total=0.641 s; sync files=7, longest=0.001 s, average=0.001 s; distance=22 kB, estimate=5403 kB; lsn=0/2276C5F8, redo lsn=0/2276C5A0
+
+2026-04-15 13:13:44.632 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 13:13:45.386 PKT [77693] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.741 s, sync=0.003 s, total=0.755 s; sync files=7, longest=0.001 s, average=0.001 s; distance=32 kB, estimate=4866 kB; lsn=0/22774640, redo lsn=0/227745E8
+
+2026-04-15 13:18:44.506 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 13:18:46.327 PKT [77693] LOG:  checkpoint complete: wrote 10 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.787 s, sync=0.008 s, total=1.825 s; sync files=11, longest=0.002 s, average=0.001 s; distance=28 kB, estimate=4382 kB; lsn=0/2277B7C0, redo lsn=0/2277B768
+
+2026-04-15 13:23:44.333 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 13:23:45.486 PKT [77693] LOG:  checkpoint complete: wrote 11 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.135 s, sync=0.003 s, total=1.158 s; sync files=7, longest=0.001 s, average=0.001 s; distance=64 kB, estimate=3950 kB; lsn=0/2278BAC0, redo lsn=0/2278BA68
+
+2026-04-15 13:38:44.499 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 13:38:45.901 PKT [77693] LOG:  checkpoint complete: wrote 13 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.387 s, sync=0.003 s, total=1.403 s; sync files=12, longest=0.001 s, average=0.001 s; distance=67 kB, estimate=3562 kB; lsn=0/2279C770, redo lsn=0/2279C718
+
+2026-04-15 17:18:45.092 PKT [77693] LOG:  checkpoint starting: time
+
+2026-04-15 17:18:45.230 PKT [77693] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.123 s, sync=0.003 s, total=0.140 s; sync files=2, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=3206 kB; lsn=0/2279D408, redo lsn=0/2279D3B0
+
